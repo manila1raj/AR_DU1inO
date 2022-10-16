@@ -1,0 +1,144 @@
+HI, This is my one of many respository.
+sharing some ideas .......
+
+1. AUTOMATIC DETECTION - after senses turns on LED lights and motor .... 
+   products:
+        a. arduino board
+        b. bread board
+        c. LED lights
+        d. Resistors
+        e. Push button 
+        f. motor / vibration motor
+        g. piezzo buzzer 
+
+
+ARDUINO CODE [
+
+void setup()
+{
+  pinMode(12, OUTPUT);
+  pinMode(11,OUTPUT);
+  pinMode(10,OUTPUT);
+  pinMode(9,OUTPUT);
+  pinMode(7,OUTPUT);
+  pinMode(6,OUTPUT);
+  pinMode(2,INPUT);
+  pinMode(8,INPUT);
+  pinMode(3,OUTPUT);
+  pinMode(5,OUTPUT);
+  pinMode(4,INPUT);
+  pinMode(1,OUTPUT);
+  pinMode(0,OUTPUT);
+  Serial.begin(3600);
+  
+}
+
+void loop()
+{
+  if(digitalRead(2)==1){
+    //digitalWrite(1,HIGH);
+    digitalWrite(3,HIGH);
+    //delay(500);
+   digitalWrite(5,HIGH);
+  digitalWrite(12, HIGH);
+  //delay(1000); 
+   digitalWrite(11, HIGH);
+ // delay(1000); 
+   digitalWrite(10, HIGH);
+  //delay(1000); 
+   digitalWrite(9, HIGH);
+  //delay(1000); 
+   digitalWrite(7, HIGH);
+  //delay(1000); 
+   digitalWrite(6, HIGH);
+ // delay(1000); 
+  }
+  
+  else {
+    digitalWrite(12, LOW);
+    digitalWrite(3,LOW);
+digitalWrite(11, LOW);
+digitalWrite(10, LOW);
+digitalWrite(9, LOW);
+digitalWrite(7, LOW);
+digitalWrite(6, LOW);
+    //digitalWrite(1,LOW);
+  }
+  if (digitalRead(8)==1){
+    digitalWrite(1,HIGH);
+    digitalWrite(0,HIGH);
+    digitalWrite(3,HIGH);
+    delay(500);
+    //digitalWrite(3,LOW);
+  digitalWrite(12, HIGH);
+  delay(1000); 
+   digitalWrite(11, HIGH);
+  delay(1000); 
+   digitalWrite(10, HIGH);
+  delay(1000); 
+   digitalWrite(9, HIGH);
+  delay(1000); 
+   digitalWrite(7, HIGH);
+  delay(1000); 
+   digitalWrite(6, HIGH);
+  delay(1000); 
+  }
+  
+  else
+  {
+    digitalWrite(12, LOW);
+    digitalWrite(1,LOW);
+    digitalWrite(3,LOW);
+digitalWrite(11, LOW);
+digitalWrite(10, LOW);
+digitalWrite(9, LOW);
+digitalWrite(7, LOW);
+digitalWrite(6, LOW);
+    digitalWrite(0,LOW);
+  }
+  
+  if (digitalRead(4)==1)
+  {
+    digitalWrite(1,HIGH);
+  }
+    else { 
+      digitalWrite(1,LOW);
+    }
+  
+  
+  Serial.print("a");
+  Serial.println();
+    
+}
+
+]
+
+check it out on
+   [ link====    https://www.tinkercad.com/things/2V1iUil7kJd-brave-fulffy-rottis/editel?sharecode=gStjdaKjqHw9eU89cUK18VGFPBGqkrN9OEf8jvsStdI     ]
+
+
+
+
+
+
+
+2...  
+
+   ..............................................MORE IDEAS COMING SOON.............................................................
+.............................................MORE IDEAS COMING SOON.............................................................
+
+.............................................MORE IDEAS COMING SOON.............................................................
+
+.............................................MORE IDEAS COMING SOON.............................................................
+
+.............................................MORE IDEAS COMING SOON.............................................................
+
+
+.............................................MORE IDEAS COMING SOON.............................................................
+
+.............................................MORE IDEAS COMING SOON.............................................................
+.............................................MORE IDEAS COMING SOON.............................................................
+
+
+
+
