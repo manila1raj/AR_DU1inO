@@ -113,9 +113,8 @@ digitalWrite(6, LOW);
 
 ]
 
-check it out on
-   [ link====    https://www.tinkercad.com/things/2V1iUil7kJd-brave-fulffy-rottis/editel?sharecode=gStjdaKjqHw9eU89cUK18VGFPBGqkrN9OEf8jvsStdI     ]
 
+  
 
 
 
